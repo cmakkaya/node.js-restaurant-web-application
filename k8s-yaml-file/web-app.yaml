@@ -27,7 +27,6 @@ spec:
           - containerPort: 3000
       imagePullSecrets:
       - name: regcred
-      - namespace: restaurant-ns
       
 ---
 
